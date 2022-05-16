@@ -1,0 +1,43 @@
+# POP8
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>POP作成</title>
+</head>
+<body>
+    <section>
+        <h2>POP作成</h2>
+        <form id="entry">
+        <dl>
+            <dt>ブランド名 <span class="must">※</span></dt>
+            <dd><input type="text" name="brand" id="brand" required></dd>
+            <dt>商品名1行（10文字以内）<span class="must">※</dt>
+            <dd><input type="text" name="item" id="item" required></dd>
+            <dd>
+            <select name="item" id="item">
+                <option value="商品名１行（10文字以内）"></option>
+                <option value="商品名２行"></option>
+            </dd>
+            </select>
+            <dt>容量</dt>
+            <dd><input type="text" name="capacity" id="capacity" required></dd>
+            <dt>価格（税抜）<span class="must">※</dt>
+            <dd><input type="text" name="price" id="price" required></dd>
+            <dt>コメント１行目（14文字以内）</dt>
+            <dd><input type="text" name="comment1" id="comment1" required></dd>
+            <dt>コメント2行目（14文字以内）</dt>
+            <dd><input type="text" name="comment2" id="comment2" required></dd>
+            <dt>コメント3行目（14文字以内）</dt>
+            <dd><input type="text" name="comment3" id="comment3" required></dd>
+            <dt>コメント4行目（14文字以内）</dt>
+            <dd><input type="text" name="comment4" id="comment4" required></dd>
+            
+        </dl>
+    </form>
+    </section>
+</body>
+</html>
